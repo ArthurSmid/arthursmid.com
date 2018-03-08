@@ -1,0 +1,269 @@
+html {
+  height: 100%;
+  font-size: 16px;
+}
+body {
+  background-color: #FCFCFC;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 0.925em;
+  line-height: 1.50;
+  height: 100%;
+  padding-top: 2em;
+}
+header {
+  width: 100%;
+  color: #334d4d;
+  background-color: white;
+  position: fixed;
+  padding: 5px 15px;
+  box-shadow: 0px 4px 3px 0px #eee;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+}
+header h1 {
+  font-size: 1.1em;
+  font-weight: 700;
+  padding: .27em 0;
+  text-align: center;
+}
+nav, ul, li {
+  vertical-align: top;
+  padding: .01em 0 .1em 0;
+}
+ul {
+  display: flex;
+}
+li {
+  flex: 1 0 25%;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #334d4d;
+}
+@media (min-width: 767px) {
+  header {
+    display: flex;
+  }
+  header h1 {
+    text-align: left;
+  }
+  nav, ul, li {
+    vertical-align: top;
+    padding: 2px 9px 0 0;
+  }
+} /* end of media query*/
+
+.centered-text {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32em;
+}
+@media (max-width: 767px) {
+  .centered-text {
+    height: 125vh;
+  }
+}
+.centered-text:first-of-type {
+  height: 118vh;
+  margin-bottom: 0;
+}
+.centered-text:nth-of-type(2) {
+  height: 80vh;
+}
+.centered-text h2 {
+  font-size: 3em;
+  font-weight: 500;
+  color: #334d4d;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  padding: 0 .25em;
+  margin-bottom: 5em; /* to change space between heading and statement */
+}
+.centered-text:first-child h2 {
+  margin-bottom: 0;
+}
+.centered-text p {
+  font-size: 1.5em;
+  font-weight: 200;
+  color: #334d4d;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  padding: 0em 1em 10em 1em;
+}
+footer {
+  padding: 2em 0 2.5em 0em;
+  background-color: white;
+  text-align: center;
+  border-top: solid .3em #F5F5F5;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: #334d4d;
+  font-weight: 200;
+}
+/* end of styles for index.html */
+/* books */
+.book {
+  padding: 1.75em;
+}
+.book h1 {
+  font-size: 2.75em;
+  font-weight: 400;
+  text-align: center;
+  padding: 2em 0 1.25em 0;
+  color: #334d4d;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.book h2, .post h2, .post-page h2 {
+  font-size: 1.5em;
+  font-weight: 400;
+  text-align: center;
+  padding: 2em 0 1em 0;
+  color: #334d4d;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.pages {
+  max-width: 42em;
+  margin: auto;
+}
+.pages p, .post p, .post-page p {
+  font-size: 1.1em;
+  font-weight: 200;
+  line-height: 1.6em;
+  color: black;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+#description {
+  font-size: 1.5em;
+  padding-bottom: 15em;
+}
+/* end of styles for books.html */
+/* notebook */
+.notebook {
+  padding: 1.75em;
+  }
+@media (min-width: 767px) {
+  .notebook {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+  }
+  .post {
+   width: 28em;
+   padding: 0 1em 1em 0;
+  }
+} /* end of media query */
+article h2 {
+  clear: both;
+}
+article h3 {
+  font-size: 1.25em;
+  font-weight: 300;
+  text-align: center;
+  color: #334d4d;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.italic {
+  font-style: italic;
+}
+.post {
+  padding: 0 0 3em 0;
+}
+/* end of styles for notebook */
+/* notebook-page styles */
+.notebook-page {
+  padding: 1.75em 1em 4em 1em;
+  max-width: 52em;
+  margin: auto;
+}
+.post-page {
+  padding: 0 1em 1em 1em;
+}
+img {
+  width: 100%;
+  padding: 1em 0;
+}
+@media (min-width: 767px) {
+  img {
+    float: right;
+    width: 26em;
+    padding: 1em 0 1em 1em;
+  }
+  .full-screen {
+    width: 100%;
+    padding: 0 0 1em 0;
+  }
+}
+figure {
+  font-weight: 200;
+  width: 26em;
+  float: right;
+}
+figcaption {
+  width: 26em;
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+@media (max-width: 767px) {
+  figure {
+    width: 100%;
+  }
+  figcaption {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+blockquote {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+/* end of notebook-page styles */
+/* about style */
+.about p {
+  font-size: 1.1em;
+  font-weight: 200;
+  line-height: 1.6em;
+  color: black;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  padding: 4em .75em 1em .75em;
+}
+.about {
+  max-width: 52em;
+  margin: auto;
+}
+/* end of about style */
+/* services style */
+.contact h2{
+  font-size: 1.5em;
+  font-weight: 400;
+  text-align: center;
+  padding: 3em 1em 1em 1em;
+  color: #334d4d;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.contact h3 {
+  font-size: 1.25em;
+  font-weight: 300;
+  text-align: center;
+  color: #334d4d;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.contact-social {
+  font-size: 1.25em;
+  font-weight: 300;
+  text-align: center;
+  color: #334d4d;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  padding: 0 1.75em 6em 1.75em;
+}
+.services {
+  margin: 0 0 1em 0;
+}
+/* end of services styles */
