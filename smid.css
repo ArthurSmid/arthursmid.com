@@ -27,7 +27,7 @@ header h1 {
   padding: .27em 0;
   text-align: center;
 }
-nav, ul, li {
+nav {
   vertical-align: top;
   padding: .01em 0 .1em 0;
   display: inline-block;
