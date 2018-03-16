@@ -287,10 +287,11 @@ form {
 }
 input {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  padding: .5em .5em;
 }
 textarea {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-  padding: .25em .25em 5em;
+  padding: .25em .25em 26em;
 }
 button {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
