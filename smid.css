@@ -279,5 +279,7 @@ form {
   display: flex;
   flex-direction: column;
   width: 42em;
+  height: 80vh;
   margin: auto;
+  justify-content: center;
 }
