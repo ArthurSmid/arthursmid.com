@@ -284,10 +284,11 @@ form {
   margin: auto;
   justify-content: center;
   padding: 0em 1em 0 1em;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
-input {
+/* input {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 textarea {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-}
+} */
