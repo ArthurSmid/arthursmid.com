@@ -290,7 +290,9 @@ input {
 }
 textarea {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  padding: .25em .25em 5em;
 }
 button {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  padding: .75em;
 }
