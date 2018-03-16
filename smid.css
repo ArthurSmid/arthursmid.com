@@ -30,7 +30,6 @@ header h1 {
 nav, ul, li {
   vertical-align: top;
   padding: .01em 0 .1em 0;
-  display: inline-block;
 }
 ul {
   display: flex;
@@ -53,6 +52,7 @@ a {
   nav, ul, li {
     vertical-align: top;
     padding: 2px 9px 0 0;
+    display: inline-block;
   }
 } /* end of media query*/
 
