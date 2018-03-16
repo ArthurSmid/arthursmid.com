@@ -278,7 +278,8 @@ svg {
 form {
   display: flex;
   flex-direction: column;
-  width: 42em;
+  max-width: 36em;
+  width: 100%;
   height: 80vh;
   margin: auto;
   justify-content: center;
