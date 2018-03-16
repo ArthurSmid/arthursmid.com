@@ -267,3 +267,6 @@ blockquote {
   margin: 0 0 1em 0;
 }
 /* end of services styles */
+svg {
+  width: auto;
+}
