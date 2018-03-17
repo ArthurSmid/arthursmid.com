@@ -23,7 +23,7 @@
 </ul>
 </nav>
 </header>
-<div id="message">
+<div id="message" class="modal">
   <form method="POST" action="//formspree.io/smidarthur@gmail.com">
   <input required type="email" name="email" placeholder="Your email">
   <textarea required name="message" placeholder="Message"></textarea>
@@ -31,6 +31,14 @@
   <input type="hidden" name="_next" value="/#thanks">
 </form>
 </div>
+
+<div id="thanks" class="modal">
+   <div class="thanks-container">
+     <h3>Done!</h3>
+     <p>I'll get back to you soon.</p>
+   </div>
+</div>
+
 <main class="notebook">
 <article class="post">
 <h2><a href="notebook/networked.html">Networked Humanity: How Do We Know What is Right or Wrong?</a></h2>
@@ -61,13 +69,7 @@
 <footer>
 <p>©2018 Arthur Smid. All Rights Reserved.</p>
 </footer>
-<script>
-  (function(){
-    var message = document.getElementById("message");
-    message.addEventListener('click', function(e) {
-      console.log(e.currentTarget)
-    }
-  }())
+<script src="main.js">
 </script>
 </body>
 </html>
