@@ -284,6 +284,10 @@ form {
   margin: auto;
   justify-content: center;
   padding: 0em 1em 0 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -52%);
 }
 input {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -296,4 +300,19 @@ textarea {
 button {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   padding: .75em;
+}
+#message {
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  background-color: transparent;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 1;
+  transition: .5s all;
+}
+#message:target {
+  background-color: rgba(0,0,0,.6);
+  /* a=alpha channel/opacity is between zero and one - 255 is max red green and blue */
+  visibility: visible;
+  opacity: 1;
 }
