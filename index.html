@@ -24,6 +24,20 @@
   </ul>
   </nav>
   </header>
+  <div id="message" class="modal">
+    <form method="POST" action="//formspree.io/smidarthur@gmail.com">
+    <input required type="email" name="email" placeholder="Your email">
+    <textarea required name="message" placeholder="Message"></textarea>
+    <button type="submit">SEND</button>
+    <input type="hidden" name="_next" value="/#thanks">
+  </form>
+  </div>
+  <div id="thanks" class="modal">
+     <div class="thanks-container">
+       <h3>Done!</h3>
+       <p>I'll get back to you soon.</p>
+     </div>
+  </div>
 <div class="centered-text">
 <h2>What's your story?</h2>
 </div>
@@ -289,20 +303,6 @@
 <div class="centered-text">
 <h2>Of all the stories ever told, the most important are the ones you believe.</h2>
 <p>Books will fade in memory but stories remain. Within an architecture of sustained belief we inhabit the world.</p>
-</div>
-<div id="message" class="modal">
-  <form method="POST" action="//formspree.io/smidarthur@gmail.com">
-  <input required type="email" name="email" placeholder="Your email">
-  <textarea required name="message" placeholder="Message"></textarea>
-  <button type="submit">SEND</button>
-  <input type="hidden" name="_next" value="/#thanks">
-</form>
-</div>
-<div id="thanks" class="modal">
-   <div class="thanks-container">
-     <h3>Done!</h3>
-     <p>I'll get back to you soon.</p>
-   </div>
 </div>
 <footer>
 <p>©2018 Arthur Smid. All Rights Reserved.</p>
