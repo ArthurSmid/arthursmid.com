@@ -19,27 +19,23 @@ body {
 #description {
   position: relative;
   background-color: transparent;
-  padding-bottom: 24em;
+  padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
 }
-
 #description .text {
   display: inline-block;
   padding: 0 1.75em 1.75em;
   background-color: #FCFCFC;
 }
-
 .bottom-background {
-  position: absolute;
-  bottom: 0;
   background-image: url("images/northernlights.jpg");
   background-repeat: no-repeat;
-  background-position: 0 -200px;
+  background-position: 0 -10px;
+  margin-top: -10em;
   display: block;
-  height: 100vh;
-  width: calc(100vw + 12.6em);
-  left: -12.6em;
+  height: 765px;
+  width: 100vw;
   z-index: -1;
   background-size: cover;
 }
@@ -92,7 +88,7 @@ form {
 </style>
 </head>
 <body>
-  <header>
+  <header class="dark-box-shadow">
   <h1><a href="index.html">Arthur Smid</a></h1>
   <nav><ul>
   <li class="current-page">Book</li>
@@ -165,11 +161,11 @@ It was Shane’s first day at work. The woman seated next to him had introduced 
   <span class="text">
     Shane is the new hire at a software company making tools to concentrate wealth and the company’s embrace of militarized hoarding freaks him out. He wants to invest in making civilization work for all and starts a company with the mission to help people self-organize and be universally employed and effective. They build a massive job-matching platform for online labor where incentives and penalties align to create value and distribute it fairly. But their platform must withstand the competition—and it's ruthless. Pundits are trying to discredit Shane as he fights to create the world's biggest platform.
   </span>
-  <span class="bottom-background">
-  </span>
 </p>
 </main>
 </div>
+<span class="bottom-background">
+</span>
 <footer>
 <p>©2018 Arthur Smid. All Rights Reserved.</p>
 </footer>
