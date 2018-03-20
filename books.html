@@ -11,10 +11,40 @@
 <link rel="stylesheet" type="text/css" href="smid.css">
 <style>
 body {
-    background-image: url("images/aurora.jpg");
-    /* background-size: contain; */
-    background-repeat: no-repeat;
-    background-position: center;
+  background-image: url("images/aurora.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow-x: hidden;
+}
+#description {
+  position: relative;
+  background-color: transparent;
+  padding-bottom: 24em;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#description .text {
+  display: inline-block;
+  padding: 0 1.75em 1.75em;
+  background-color: #FCFCFC;
+}
+
+.bottom-background {
+  position: absolute;
+  bottom: 0;
+  background-image: url("images/northernlights.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 -200px;
+  display: block;
+  height: 100vh;
+  width: calc(100vw + 12.6em);
+  left: -12.6em;
+  z-index: -1;
+  background-size: cover;
+}
+.book {
+  padding-bottom: 0;
 }
 .book h1 {
   font-size: 10em;
@@ -41,7 +71,23 @@ h3 {
 }
 form {
   position: relative;
-  height: 0vh;
+}
+.signup-container {
+  display: flex;
+  margin-bottom: 1.5em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+.signup-text {
+  font-size: 1em;
+  font-weight: 200;
+  text-align: center;
+  color: #334d4d;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  padding-bottom: 4.5em;
+}
+#mce-EMAIL {
+  flex: 1;
 }
 </style>
 </head>
@@ -80,7 +126,7 @@ form {
 <p><b class="bold-font">THE CITY SHOOK</b> and cracks ripped through the street. A jagged hole broke open across his path and Shane ran to the sidewalk as the cornice from an old building fell directly ahead of him. Portland was in ruins. He felt the power to create in this disaster. A city reduced to construction and finance. A city made by software. All humanity could be joined to remake their world. Shane thought this city was more than a collection of structures, it was a form of intelligence. On screen his character ran back into the street and text popped up: WHAT ARE YOU GOING TO DO? Two buttons: LOOT or HELP.<br><br>
 “Cool,” Bradley said.<br><br>
 Shane glanced at his boss.<br><br>
-“So what are you going to do?” Bradley tucked his chin.<br><br>
+“So what are you going to do?”<br><br>
 Shane looked back to the screen. “Help.”<br><br>
 He clicked and three characters appeared: Police, Builder, and Investor. The city was a creation of thought. It was a creation of the world. Bounded by laws, natural and civil, but created. People thinking of their city. An idea built of steel and concrete, copper and glass, plant and animal seated at the confluence of the Willamette and Columbia, upon a seat of commerce, a coin spinning in the air. This was the ultimate game. He quickly selected Builder. He was then back in the street of a demolished city, wandering through the rubble. Shane saw a brick glowing with a heartbeat red pulse. The moment his character touched the brick a pleasant chime sounded and a tiny brick appeared in his cache along the bottom of the screen. Did this game have a score? He wondered if it could be won by someone, a team maybe.<br><br>
 “Congratulations,” Bradley said. “You just made one hundredth of a cent.”<br><br>
@@ -98,29 +144,29 @@ It was Shane’s first day at work. The woman seated next to him had introduced 
   <div id="mc_embed_signup">
   <form action="https://arthursmid.us12.list-manage.com/subscribe/post?u=bde4032661bcb4dcc1f2cfcb0&amp;id=39e10043db" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
       <div id="mc_embed_signup_scroll">
-
-  <div class="mc-field-group">
-  	<label for="mce-NAME">Name </label>
-  	<input type="text" value="" name="NAME" class="required" id="mce-NAME">
-  </div>
-  <div class="mc-field-group">
-  	<label for="mce-EMAIL">Email </label>
+  <div class="mc-field-group signup-container">
   	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+    <input type="submit" value="SEND" name="subscribe" id="mc-embedded-subscribe" class="button">
   </div>
   	<div id="mce-responses" class="clear">
   		<div class="response" id="mce-error-response" style="display:none"></div>
   		<div class="response" id="mce-success-response" style="display:none"></div>
   	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
       <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_bde4032661bcb4dcc1f2cfcb0_39e10043db" tabindex="-1" value=""></div>
-      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+      <!-- <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div> -->
       </div>
   </form>
   </div>
   <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='NAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
   <!--End mc_embed_signup-->
 </div>
-<h3>Only occasional updates. Learn about the progress toward publication. Unsubscribe anytime. Your email will not be sold. I'd love to hear what you think of the story!</h3>
-<p id="description">Shane is the new hire at a software company making tools to concentrate wealth and the company’s embrace of militarized hoarding freaks him out. He wants to invest in making civilization work for all and starts a company with the mission to help people self-organize and be universally employed and effective. They build a massive job-matching platform for online labor where incentives and penalties align to create value and distribute it fairly. But their platform must withstand the competition—and it's ruthless. Pundits are trying to discredit Shane as he fights to create the world's biggest platform.
+<h3 class="signup-text">Only occasional updates. Learn about the progress toward publication. Unsubscribe anytime. Your email will not be shared. I'd love to hear what you think of the story!</h3>
+<p id="description">
+  <span class="text">
+    Shane is the new hire at a software company making tools to concentrate wealth and the company’s embrace of militarized hoarding freaks him out. He wants to invest in making civilization work for all and starts a company with the mission to help people self-organize and be universally employed and effective. They build a massive job-matching platform for online labor where incentives and penalties align to create value and distribute it fairly. But their platform must withstand the competition—and it's ruthless. Pundits are trying to discredit Shane as he fights to create the world's biggest platform.
+  </span>
+  <span class="bottom-background">
+  </span>
 </p>
 </main>
 </div>

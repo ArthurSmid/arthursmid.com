@@ -20,6 +20,7 @@ header {
   justify-content: space-between;
   top: 0;
   left: 0;
+  z-index: 2;
 }
 header h1 {
   font-size: 1.1em;
@@ -278,7 +279,7 @@ svg {
   fill: #334d4d;
   height: 22px;
 }
-form {
+.modal form {
   display: flex;
   flex-direction: column;
   max-width: 36em;
