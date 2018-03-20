@@ -238,7 +238,7 @@ blockquote {
   line-height: 1.6em;
   color: black;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-  padding: 4em .75em 1em .75em;
+  padding: 0 .75em 1em .75em;
 }
 .about {
   max-width: 52em;
@@ -246,7 +246,7 @@ blockquote {
 }
 /* end of about style */
 /* services style */
-.contact h2{
+.top-heading h2{
   font-size: 1.5em;
   font-weight: 400;
   text-align: center;
