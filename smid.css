@@ -141,11 +141,16 @@ footer {
 }
 .pages p, .post p, .post-page p {
   font-size: 1.1em;
-  font-weight: 200;
   line-height: 1.6em;
   color: black;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
+/* font size for desktop */
+@media (min-width: 767px) {
+  .pages p, .post p, .post-page p {
+    font-weight: 200;
+}
+} /* end of media query */
 #description {
   font-size: 1.5em;
   padding-bottom: 15em;
