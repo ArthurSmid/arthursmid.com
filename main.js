@@ -14,12 +14,14 @@
   }
 })();
 
-$(window).scroll(function() {
-  var fromTop = $(this).scrollTop();
+if (typeof jQuery !== "undefined") {  
+  $(window).scroll(function() {
+    var fromTop = $(this).scrollTop();
 
-  if (fromTop > 5) {
-    $('.social-contact').fadeOut();
-  } else {
-    $('.social-contact').fadeIn()
-  }
-})
+    if (fromTop > 5) {
+      $('.social-contact').fadeOut();
+    } else {
+      $('.social-contact').fadeIn()
+    }
+  })
+}
