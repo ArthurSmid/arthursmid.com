@@ -12,9 +12,11 @@
     	return;
     }
   }
+  var year = new Date().getFullYear();
+  document.getElementById("js-year").innerHTML=year
 })();
 
-if (typeof jQuery !== "undefined") {  
+if (typeof jQuery !== "undefined") {
   $(window).scroll(function() {
     var fromTop = $(this).scrollTop();
 
