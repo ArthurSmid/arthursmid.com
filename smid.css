@@ -143,9 +143,10 @@ footer {
   margin: auto;
 }
 .pages p, .post p, .post-page p {
-  font-size: 1.1em;
-  line-height: 1.6em;
-  color: black;
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1.8em;
+  color: #334d4d;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 /* font size for desktop */
