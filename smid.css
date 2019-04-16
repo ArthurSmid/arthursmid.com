@@ -273,6 +273,15 @@ blockquote {
   font-weight: 400;
 }
 /* end of services styles */
+/* press-kit styles */
+.bold {
+  font-weight: 500;
+}
+.center-heading {
+  margin: 1.5em 0 1em 0;
+  font-weight: 400;
+}
+/* end of services styles */
 svg {
   width: auto;
   fill: #334d4d;
