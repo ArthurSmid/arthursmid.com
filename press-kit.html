@@ -11,6 +11,17 @@
 <link rel="stylesheet" type="text/css" href="smid.css">
 <title>Life in Common</title>
 <style>
+  .mobile-img {
+  display: none;
+}
+  @media only screen and (max-width: 620px) {
+  .desktop-img {
+    display: none;
+  }
+  .mobile-img {
+    width: 100%;
+  }
+}
   img {
     width: 100%;
     padding: 1em 0 0 0;
@@ -21,17 +32,6 @@
     padding: 1em 0 2.5em 0;
   }
 }
-  .mobile-img {
-    display: none;
-  }
-  @media only screen and (max-width: 320px) {
-    .desktop-img {
-      display: none;
-    }
-    .mobile-img {
-      width: 100%;
-    }
-  }
 </style>
 </head>
 <body>
