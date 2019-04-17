@@ -11,6 +11,18 @@
 <link rel="stylesheet" type="text/css" href="smid.css">
 <title>Life in Common</title>
 <style>
+.mobile-img {
+display: none;
+}
+@media only screen and (max-width: 620px) {
+  .desktop-img {
+    display: none;
+  }
+  .mobile-img {
+    display: block;
+    width: 100%;
+  }
+}
 .author-photo p {
   font-size: 1em;
   font-weight: 200;
@@ -24,7 +36,7 @@
 .author-photo img {
   width: 100%;
   padding: 1em 0 1em 0;
-}
+
   @media only screen and (min-width: 300px) {
   .author-photo img {
     width: 350px;
@@ -32,18 +44,6 @@
   }
   img {
     float: none;
-  }
-}
-  .mobile-img {
-  display: none;
-}
-  @media only screen and (max-width: 620px) {
-  .desktop-img {
-    display: none;
-  }
-  .mobile-img {
-    display: block;
-    width: 100%;
   }
 }
 img {
