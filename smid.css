@@ -359,10 +359,3 @@ button {
   margin: 0 21px 0 4px;
   display: inline-block;
 }
-#circle{
-width:17px;
-height:18px;
-background: linear-gradient(90deg, #DA36E2, #FFF200);
-border-radius: 30%;
-box-shadow: 2px 2px 0px white;
-}
