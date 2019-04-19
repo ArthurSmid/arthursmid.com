@@ -282,6 +282,7 @@ blockquote {
   font-weight: 400;
 }
 /* end of services styles */
+/* contact icon styles */
 svg {
   width: auto;
   fill: #334d4d;
@@ -350,4 +351,18 @@ button {
   /* a=alpha channel/opacity is between zero and one - 255 is max red green and blue */
   visibility: visible;
   opacity: 1;
+}
+/* end contact style */
+/* style for menu landing-icon */
+.landing-icon {
+  vertical-align: top;
+  margin: 0 21px 0 4px;
+  display: inline-block;
+}
+#circle{
+width:17px;
+height:18px;
+background: linear-gradient(90deg, #DA36E2, #FFF200);
+border-radius: 30%;
+box-shadow: 2px 2px 0px white;
 }
