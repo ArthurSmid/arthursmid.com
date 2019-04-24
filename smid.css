@@ -353,9 +353,29 @@ button {
   opacity: 1;
 }
 /* end contact style */
-/* style for menu landing-icon */
+/* style for menu-bar book icon, link to landing page */
+
 .landing-icon {
   vertical-align: top;
-  margin: 0 18.25px 0 4px;
+  margin: 0 21px 0 4px;
   display: inline-block;
+  position: relative;
+}
+
+.landing-icon:hover::after {
+  display: block;
+}
+
+.landing-icon:after {
+  top: 0;
+  left: 0;
+  z-index: -1;
+  display: none;
+  content:"";
+  width:17px;
+  height:18px;
+  background: linear-gradient(90deg, #DA36E2, #FFF200);
+  border-radius: 30%;
+  box-shadow: 2px 2px 0px white;
+  position: absolute;
 }
