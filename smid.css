@@ -180,6 +180,9 @@ article h3 {
   color: #334d4d;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
+#boldh3 {
+  font-weight: 500;
+}
 .italic {
   font-style: italic;
 }
