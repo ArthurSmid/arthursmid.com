@@ -210,7 +210,7 @@ article h3 {
 }
 img {
   width: 100%;
-  padding: 1em 0;
+  padding: 0 0 1em 0;
 }
 @media (min-width: 767px) {
   img {
