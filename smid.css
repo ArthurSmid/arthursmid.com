@@ -215,7 +215,7 @@ img {
 .full-screen {
   padding: 0 0 1em 0;
 }
-.full-screen .with-credit {
+.full-screen.with-credit {
   padding: 0 0 .5em 0;
 }
 @media (min-width: 767px) {
