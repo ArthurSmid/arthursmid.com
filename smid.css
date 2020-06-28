@@ -118,6 +118,15 @@ footer {
   font-weight: 200;
 }
 /* end of styles for index.html */
+/* beginning of image credit style */
+#image-credit {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 1em;
+  text-align: right;
+  padding: 0 0 .25em 0;
+}
+/* end of image credit style */
 /* books */
 .book {
   padding: 1.75em;
@@ -284,7 +293,7 @@ blockquote {
   margin: 1.5em 0 1em 0;
   font-weight: 400;
 }
-/* end of services styles */
+/* end of press-kit styles */
 /* contact icon styles */
 svg {
   width: auto;
