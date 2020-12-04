@@ -64,20 +64,23 @@ display: none;
   </ul>
   </nav>
   </header>
-<div id="message" class="modal">
-  <form method="POST" action="//formspree.io/smidarthur@gmail.com">
-  <input required type="email" name="email" placeholder="Your email">
-  <textarea required name="message" placeholder="Message"></textarea>
-  <button type="submit">SEND</button>
-  <input type="hidden" name="_next" value="/#thanks">
-</form>
-</div>
-<div id="thanks" class="modal">
-   <div class="thanks-container">
-     <h3>Done!</h3>
-     <p>I'll get back to you soon.</p>
-   </div>
-</div>
+  <div id="message" class="modal">
+    <form name="contact" method="POST" data-netlify="true">
+    <input required type="email" name="email" placeholder="Your email">
+    <textarea required name="message" placeholder="Message"></textarea>
+    <div class="recaptcha-send">
+        <div data-netlify-recaptcha="true"></div>
+        <button class="send" type="submit">SEND</button>
+    </div>
+    <!-- <input type="hidden" name="_next" value="/#thanks"> -->
+    </form>
+  </div>
+  <!-- <div id="thanks" class="modal">
+     <div class="thanks-container">
+       <h3>Done!</h3>
+       <p>I'll get back to you soon.</p>
+     </div>
+  </div> -->
 <main class="notebook-page">
 <article class="post-page">
 <p>

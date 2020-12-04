@@ -25,19 +25,22 @@
 </nav>
 </header>
 <div id="message" class="modal">
-  <form method="POST" action="//formspree.io/smidarthur@gmail.com">
+  <form name="contact" method="POST" data-netlify="true">
   <input required type="email" name="email" placeholder="Your email">
   <textarea required name="message" placeholder="Message"></textarea>
-  <button type="submit">SEND</button>
-  <input type="hidden" name="_next" value="/#thanks">
-</form>
+  <div class="recaptcha-send">
+      <div data-netlify-recaptcha="true"></div>
+      <button class="send" type="submit">SEND</button>
+  </div>
+  <!-- <input type="hidden" name="_next" value="/#thanks"> -->
+  </form>
 </div>
-<div id="thanks" class="modal">
+<!-- <div id="thanks" class="modal">
    <div class="thanks-container">
      <h3>Done!</h3>
      <p>I'll get back to you soon.</p>
    </div>
-</div>
+</div> -->
 <main class="notebook">
 <article class="post">
 <h2><a href="notebook/participating.html">Participating in Public: Municipal Software for Online Dialogue and Decision-Making</a></h2>
