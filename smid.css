@@ -48,6 +48,9 @@ a {
   text-decoration: none;
   color: #334d4d;
 }
+.link-color {
+  color: #a85e0f;
+}
 .current-page {
   font-weight: bold;
 }
