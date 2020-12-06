@@ -17,6 +17,12 @@ body {
   background-position: center;
   overflow-x: hidden;
 }
+.container {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  right: 18px;
+}
 h1 span {
   display: block;
   text-align: right;
@@ -25,14 +31,11 @@ p {
   background-color: #FCFCFC;
   padding: 1.5em 1.75em 0;
 }
-.container {
-  margin: 0 auto;
-  text-align: center;
-  position: relative;
-  right: 18px;
-}
 .book {
   padding-bottom: 0;
+}
+.pages {
+  margin-top: -5rem;
 }
 .book h1{
   color: white;
@@ -84,12 +87,7 @@ p {
   .book h1 {
     font-size: 800%;
   }
-
-@media only screen and (min-width: 1195px) {
-  .pages {
-    margin-top: -5rem;
-  }
-}
+ }
 /* end white title overflow styles */
 @media only screen and (max-width: 767px) {
   .book h1 {
