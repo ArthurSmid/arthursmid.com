@@ -79,6 +79,18 @@ p {
   z-index: -1;
   background-size: cover;
 }
+/* begin styles to keep the white book title from growing into the white background */
+@media only screen and (min-width: 1259px) {
+  .book h1 {
+    font-size: 800%;
+  }
+
+@media only screen and (min-width: 1195px) {
+  .pages {
+    margin-top: -5rem;
+  }
+}
+/* end white title overflow styles */
 @media only screen and (max-width: 767px) {
   .book h1 {
     font-size: 5em;
