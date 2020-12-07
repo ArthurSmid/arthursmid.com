@@ -57,6 +57,9 @@ a[href^="http"] {
 .my-name {
   padding-left: 0rem;
 }
+.bold-font {
+  font-weight: 510;
+}
 @media only screen and (min-width: 767px) {
   header {
     display: flex;
