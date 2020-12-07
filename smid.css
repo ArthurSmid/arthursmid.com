@@ -60,6 +60,9 @@ a[href^="http"] {
 .bold-font {
   font-weight: 510;
 }
+.indent {
+  padding-left: 3rem;
+}
 @media only screen and (min-width: 767px) {
   header {
     display: flex;
