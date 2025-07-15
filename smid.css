@@ -398,6 +398,23 @@ button {
   opacity: 1;
 }
 /* end contact style */
+.email {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  height: 88vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.email b {
+	display: none;
+}
+/* begin new contact style  */
+
+
+/* end new contact style */
+
 /* style for menu-bar book icon, link to landing page */
 
 .landing-icon {
