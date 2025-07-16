@@ -83,7 +83,8 @@ a[href^="http"] {
   }
 } /* end of media query*/
 
-.centered-text {
+/* homepage job description */
+.centered-title {
   text-align: center;
   width: 100%;
   height: 100vh;
@@ -94,24 +95,68 @@ a[href^="http"] {
   margin-bottom: 32em;
 }
 @media (max-width: 767px) {
-  .centered-text {
+  .centered-title {
     height: 125vh;
   }
 }
-.centered-text:first-of-type {
+.centered-title:first-of-type {
   height: 118vh;
   margin-bottom: 0;
 }
-.centered-text:nth-of-type(2) {
+.centered-title:nth-of-type(2) {
   height: 80vh;
 }
-.centered-text h2 {
+.centered-title h2 {
   font-size: 3em;
   font-weight: 500;
   color: #334d4d;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   padding: 0 .25em;
   margin-bottom: 5em; /* to change space between heading and statement */
+}
+.centered-title:first-child h2 {
+  margin-bottom: 0;
+}
+.centered-title p {
+  font-size: 1.5em;
+  font-weight: 200;
+  color: #334d4d;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  padding: 0em 1em 10em 1em;
+}
+/* end homepage job description */
+/* what-we-have-in-common scroll */
+.centered-text {
+  text-align: center;
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32em;
+  padding: 0em 18em;
+}
+@media (max-width: 767px) {
+  .centered-text {
+    padding: 0em 1em;
+    /* height: 125vh; */
+  }
+}
+.centered-text:first-of-type {
+  height: 120vh;
+  margin-bottom: 0;
+}
+/* .centered-text:nth-of-type(2) {
+  height: 80vh;
+} */
+.centered-text h2 {
+  font-size: 3em;
+  font-weight: 500;
+  color: #334d4d;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  padding: 0 .25em;
+  margin-bottom: 3.5em; /* to change space between heading and statement */
 }
 .centered-text:first-child h2 {
   margin-bottom: 0;
@@ -121,8 +166,9 @@ a[href^="http"] {
   font-weight: 200;
   color: #334d4d;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-  padding: 0em 1em 10em 1em;
+  padding: 0em 1em;
 }
+/* end what-we-have-in-common scroll  */
 footer {
   padding: 2em 0 2.5em 0em;
   background-color: white;
