@@ -78,8 +78,8 @@
   } 
   
   @media only screen and (max-width: 767px) {
-  .pdf {
-    display: flex;
+  .pitch {
+    align-items: center;
     text-align: center;
     justify-content: center;
   }
