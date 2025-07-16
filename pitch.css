@@ -38,23 +38,7 @@
     text-decoration: none;
     color: white;
   }
-  @media only screen and (min-width: 767px) {
-    header {
-      display: flex;
-      justify-content: space-between;
-    }
-    header h1 {
-      text-align: left;
-    }
-    .title {
-      padding-left: 2rem;
-    }
-  } 
-  @media (max-width: 1050px) {
-    .page {
-      width: 100%;
-    }
-  } /* end of media query*/
+
   .pitch {
     display: flex;
     flex-direction: column;
@@ -75,3 +59,26 @@
     color: #cc3300;
   }
 
+  @media only screen and (min-width: 767px) {
+    header {
+      display: flex;
+      justify-content: space-between;
+    }
+    header h1 {
+      text-align: left;
+    }
+    .title {
+      padding-left: 2rem;
+    }
+  } 
+  @media (max-width: 1050px) {
+    .page {
+      width: 100%;
+    }
+  } 
+  
+  @media only screen and (max-width: 767px) {
+  .pdf {
+    text-align: center;
+  }
+}
