@@ -128,18 +128,20 @@ a[href^="http"] {
 /* what-we-have-in-common scroll */
 .centered-text {
   text-align: center;
-  width: 100%;
+  width: 52em;
+  margin: auto;
   /* height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-bottom: 32em;
-  padding: 0em 18em;
+  padding: 0em 1em;
 }
 @media (max-width: 767px) {
   .centered-text {
     padding: 0em 1em;
+    width: 100%;
     /* height: 125vh; */
   }
 }
