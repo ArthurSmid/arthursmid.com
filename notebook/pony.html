@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en-US">
 <head>
 <meta charset="utf-8">
@@ -37,10 +38,38 @@
   </ul>
   </nav>
   </header>
-  <main>
-      <article>
-        <img style="width: 100%;" src="../images/ifap/ifapcover.jpg" alt="An eight-year-old girl hugs a pony.">
-      </article>
+ <main>
+    <article>
+      <img style="width: 100%;" src="../images/ifap/ifapcover.jpg" alt="An eight-year-old girl hugs a pony.">
+    </article>
+ <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img style="width: 100%;" src="../images/ifap/ifap1.jpg">
+  </div>
+
+  <div class="mySlides fade">
+    <img style="width: 100%;" src="../images/ifap/ifap2.jpg">
+  </div>
+
+  <div class="mySlides fade">
+    <img style="width: 100%;" src="../images/ifap/ifap3.jpg">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div> 
   </main>
   <footer>
   <p>©<span id="js-year"></span> Arthur Smid. All Rights Reserved.</p>
