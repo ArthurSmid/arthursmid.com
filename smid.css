@@ -424,12 +424,23 @@ svg {
 
 /* begin style for slideshow */
 
+.cover-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80em;
+}
+.cover {
+  display: flex;
+  width: 80em;
+}
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
   display: flex;
-  width: 52em;
+  width: 80em;
   position: relative;
   margin: auto;
 }
