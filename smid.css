@@ -423,7 +423,6 @@ svg {
 }
 
 /* begin style for slideshow */
-
 .cover-container {
   display: block;
   margin-left: auto;
@@ -435,7 +434,6 @@ svg {
   display: flex;
   width: 80em;
 }
-
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -534,12 +532,4 @@ svg {
     width: 100%;
   }
 }
-
-/* @media only screen and (min-width: 767px) {
-  .cover-container {
- 
-  }
-  } */
-
-
 /* end style for slideshow */
