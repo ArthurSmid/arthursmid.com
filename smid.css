@@ -429,8 +429,9 @@ svg {
   margin-left: auto;
   margin-right: auto;
   width: 80em;
+  padding-top: 4em;
 }
-.cover {
+.cover, .scroll {
   display: flex;
   width: 80em;
 }
@@ -503,5 +504,42 @@ svg {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+@media (max-width: 1200px) {
+ 
+  .cover-container {
+    width: 100%;
+    padding: 4em 1em 0 1em;
+  }
+
+  .slideshow-container, .dot {
+    display: none;
+  }
+
+  .scroll {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+  }
+
+  .end-of-scroll {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .scroll {
+    display: none;
+    width: 100%;
+  }
+}
+
+/* @media only screen and (min-width: 767px) {
+  .cover-container {
+ 
+  }
+  } */
+
 
 /* end style for slideshow */
