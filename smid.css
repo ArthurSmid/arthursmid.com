@@ -431,7 +431,7 @@ svg {
   width: 80em;
   padding-top: 4em;
 }
-.cover {
+.cover, .scroll {
   display: flex;
   width: 80em;
 }
@@ -515,11 +515,23 @@ svg {
   .slideshow-container, .dot {
     display: none;
   }
+
+  .scroll {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+  }
+
+  .end-of-scroll {
+    display: none;
+  }
 }
 
 @media (min-width: 1200px) {
   .scroll {
     display: none;
+    width: 100%;
   }
 }
 
