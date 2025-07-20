@@ -443,6 +443,7 @@ svg {
   width: 80em;
   position: relative;
   margin: auto;
+  padding-top: 2em;
 }
 
 /* Hide the images by default */
