@@ -533,3 +533,9 @@ svg {
   }
 }
 /* end style for slideshow */
+/* begin style for illustration */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers content horizontally */
+}
