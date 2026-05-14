@@ -539,3 +539,9 @@ svg {
     flex-direction: column;
     align-items: center; /* centers content horizontally */
 }
+@media (max-width: 767px) {
+  .post-page h2{
+    padding: 3em 0 1em 0;
+  }
+}
+/* end style for illustration */
